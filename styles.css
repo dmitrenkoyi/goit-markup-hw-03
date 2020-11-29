@@ -31,7 +31,8 @@ section img {
 
 
 /* main-nav в верхней линии */
-.main-nav{
+.main-nav,
+.page-header .conteiner{
     display: flex;
     align-items: center;
      
@@ -200,7 +201,6 @@ text-align: center;
 .command-list .item {
 width: 370px;
 margin-right: 30px;
-margin-bottom: 30px;
 border: 1px solid var(--border-color);
 }
 .command-list .item:nth-child(4n){
@@ -210,7 +210,8 @@ border: 1px solid var(--border-color);
 .command-name {
 font-weight: 500;
 font-size: 16px;
-line-height: 1.18px;
+
+/* line-height: 1.18px; */
 
 margin-top: 30px;
 margin-bottom: 10px
@@ -236,14 +237,22 @@ line-height: 1.18;
     color: rgba(255, 255, 255, 60%);
     margin-top: 0px;
     margin-bottom: 9px;
+    display: block;
+}
+.footer .conteiner{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer {
     background-color:var(--footer-hero-bgr-color);
-}
+    }
 .footer-logo {
+    display: block;
 color: var(--white-minor);
 font-family: Raleway, sans-serif;
+margin-bottom: 20px;
 }
+
 
 /* Свойства для 2стр Портфолио */
 /*кноки фильтра */
